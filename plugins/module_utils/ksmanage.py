@@ -6,7 +6,7 @@ from __future__ import (absolute_import, division, print_function)
 __metaclass__ = type
 
 try:
-    import ksmanage
+    import inmanage
     ksmanage_temp = True
 except ImportError:
     ksmanage_temp = False
@@ -50,5 +50,5 @@ def get_connection(module):
     dict_param = module.params
     if not ksmanage_temp:
         module.fail_json(msg='ksmanage_sdk must be installed to use this module')
-    result = ksmanage.main(dict_param)
+    result = inmanage.main(dict_param)
     return result
