@@ -73,7 +73,7 @@ See the [changelog](https://github.com/ieisystem/kaytus.ksmanage/blob/main/CHANG
 
 ## Roadmap
 
-See [this issue](https://github.com/ieisystem/kaytus.ksmanage/issues/2) for information on releasing, versioning and deprecation.
+See [this issue](https://github.com/ieisystem/kaytus.ksmanage/issues/3) for information on releasing, versioning and deprecation.
 
 In general, we plan to release a major version every year, and minor versions every three months. Major versions can contain breaking changes, while minor versions only contain new features and bugfixes.
 
