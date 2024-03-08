@@ -202,7 +202,7 @@ Examples
 .. code-block:: yaml+jinja
 
     
-    - name: self test
+    - name: Self test
       hosts: ksmanage
       connection: local
       gather_facts: no

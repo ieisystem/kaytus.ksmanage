@@ -202,7 +202,7 @@ Examples
 .. code-block:: yaml+jinja
 
     
-    - name: preserve test
+    - name: Preserve test
       hosts: ksmanage
       connection: local
       gather_facts: no

@@ -28,8 +28,7 @@ options:
         required: true
     auto_nego:
         description:
-            - This option is enabled to allow the device to perform automatic configuration to
-            - achieve the best possible mode of operation(speed and duplex) over a link.
+            - This option is enabled to allow the device to perform automatic configuration to achieve the best possible mode of operation(speed and duplex) over a link.
         choices: ['enable', 'disable']
         type: str
     link_speed:
@@ -49,7 +48,7 @@ extends_documentation_fragment:
 '''
 
 EXAMPLES = '''
-- name: link test
+- name: Link test
   hosts: ksmanage
   connection: local
   gather_facts: no
