@@ -398,3 +398,11 @@ releases:
       name: volt_info
       namespace: ''
     release_date: '2023-12-07'
+  1.1.0:
+    changes:
+      minor_changes:
+      - Fix any issues in your module that don't meet the ansible module format and
+        documentation requirements.
+    fragments:
+    - 6-edit_documentation.yml
+    release_date: '2024-03-08'
