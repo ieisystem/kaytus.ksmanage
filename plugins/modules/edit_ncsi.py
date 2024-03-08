@@ -29,8 +29,8 @@ options:
         type: str
     mode:
         description:
-            - NCSI mode, auto-Auto Failover,  manual-Manual Switch.
-            - Only M6 model supports C(Disable) Settings
+            - NCSI mode, auto-Auto Failover, manual-Manual Switch.
+            - Only M6 model supports C(Disable) Settings.
         choices: ['auto', 'manual', 'Disable']
         type: str
     interface_name:
