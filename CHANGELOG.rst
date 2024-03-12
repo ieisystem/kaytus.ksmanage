@@ -5,6 +5,14 @@ CHANGE THIS IN changelogs/config.yaml! Release Notes
 .. contents:: Topics
 
 
+v1.1.1
+======
+
+Minor Changes
+-------------
+
+- Fix any issues in your module that don't meet the ansible module format and documentation requirements.
+
 v1.1.0
 ======
 
