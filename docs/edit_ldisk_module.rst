@@ -173,7 +173,7 @@ Parameters
                                                                                     </ul>
                                                                             </td>
                                                                 <td>
-                                            <div>Set operation options fo logical disk.</div>
+                                            <div>Set operation options for a logical disk.</div>
                                             <div>LOC is Locate Logical Drive, STL is Stop Locate LogicalDrive.</div>
                                             <div>FI is Fast Initialization, SFI is Slow/Full Initialization.</div>
                                             <div>SI is Stop Initialization, DEL is Delete LogicalDrive.</div>

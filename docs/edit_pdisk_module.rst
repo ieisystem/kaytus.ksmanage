@@ -241,7 +241,7 @@ Parameters
                                                                                     </ul>
                                                                             </td>
                                                                 <td>
-                                            <div>Set operation options fo physical disk.</div>
+                                            <div>Set operation options for a physical disk.</div>
                                             <div>UG is Unconfigured Good, UB is Unconfigured Bad.</div>
                                             <div>OFF is offline, FAIL is Failed, RBD is Rebuild.</div>
                                             <div>ON is Online, JB is JBOD, ES is Drive Erase stop.</div>

@@ -257,7 +257,7 @@ Parameters
                                                                                     </ul>
                                                                             </td>
                                                                 <td>
-                                            <div>To enable or disable Remote Media support, check or uncheck the checbox respectively.</div>
+                                            <div>To enable or disable Remote Media support, check or uncheck the checkbox respectively.</div>
                                                         </td>
             </tr>
                                 <tr>

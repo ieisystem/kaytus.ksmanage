@@ -163,7 +163,7 @@ Parameters
                                                                                     <b>Default:</b><br/><div style="color: blue">0</div>
                                     </td>
                                                                 <td>
-                                            <div>Reserve Configrations, 0-reserve, 1-override.</div>
+                                            <div>Reserve Configurations, 0-reserve, 1-override.</div>
                                                         </td>
             </tr>
                                 <tr>

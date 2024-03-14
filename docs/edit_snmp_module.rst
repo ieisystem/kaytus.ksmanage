@@ -84,7 +84,7 @@ Parameters
                                                                                                                                                             </td>
                                                                 <td>
                                             <div>Set auth password of V3 trap or v3get/v3set.</div>
-                                            <div>Password is a string of 8 to 16 alpha-numeric characters.</div>
+                                            <div>Password is a string of 8 to 16 alphanumeric characters.</div>
                                             <div>Required when <em>auth_protocol</em> is either <code>SHA</code> or <code>MD5</code>.</div>
                                                         </td>
             </tr>
@@ -167,7 +167,7 @@ Parameters
                                                                                                                                                             </td>
                                                                 <td>
                                             <div>Set privacy password of V3 trap or v3get/v3set.</div>
-                                            <div>Password is a string of 8 to 16 alpha-numeric characters.</div>
+                                            <div>Password is a string of 8 to 16 alphanumeric characters.</div>
                                             <div>Required when <em>priv_protocol</em> is either <code>DES</code> or <code>AES</code>.</div>
                                                         </td>
             </tr>
