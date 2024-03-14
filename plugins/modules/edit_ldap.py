@@ -43,7 +43,7 @@ options:
             - Bind DN.
             - Bind DN is a string of 4 to 64 alphanumeric characters.
             - It must start with an alphabetical character.
-            - Special Symbols like dot(.), comma(,), hyphen(-), underscore(_), equal-to(=) are allowed.
+            - Special Symbols like dot(.), comma(, ), hyphen(-), underscore(_), equal-to(=) are allowed.
         type: str
     code:
         description:
@@ -55,7 +55,7 @@ options:
             - Search Base.
             - Search base is a string of 4 to 64 alphanumeric characters.
             - It must start with an alphabetical character.
-            - Special Symbols like dot(.), comma(,), hyphen(-), underscore(_), equal-to(=) are allowed.
+            - Special Symbols like dot(.), comma(, ), hyphen(-), underscore(_), equal-to(=) are allowed.
         type: str
     attr:
         description:
@@ -111,7 +111,7 @@ EXAMPLES = '''
       encry: "SSL"
       address: "100.2.2.2"
       server_port: 389
-      dn: "cn=manager,ou=login,dc=domain,dc=com"
+      dn: "cn=manager, ou=login, dc=domain, dc=com"
       code: "123456"
       base: "cn=manager"
       attr: "uid"

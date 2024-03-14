@@ -28,11 +28,11 @@ options:
         type: str
     uid:
         description:
-            - User id,The range is 1 to 16.
+            - User id, The range is 1 to 16.
         type: int
     uname:
         description:
-            - User name,Required when uid is None.
+            - User name, Required when uid is None.
         type: str
     upass:
         description:
@@ -83,7 +83,7 @@ EXAMPLES = '''
       uname: "wbs"
       upass: "admin"
       role_id: "Administrator"
-      priv: "kvm,sol"
+      priv: "kvm, sol"
       email: "wbs@ieisystem.com"
       provider: "{{ ksmanage }}"
 
@@ -93,7 +93,7 @@ EXAMPLES = '''
       uname: "wbs"
       upass: "12345678"
       role_id: "user"
-      priv: "kvm,sol"
+      priv: "kvm, sol"
       provider: "{{ ksmanage }}"
 '''
 
