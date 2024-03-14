@@ -65,28 +65,28 @@ options:
         type: str
     v3username:
         description:
-            - Set user name of V3 trap or v3get/v3set.
+            - Set a username for the V3 trap or v3get/v3set.
         type: str
     auth_protocol:
         description:
-            - Choose authentication of V3 trap or v3get/v3set.
+            - Choose the authentication protocol for the V3 trap or v3get/v3set.
         choices: ['NONE', 'SHA', 'MD5']
         type: str
     auth_password:
         description:
-            - Set auth password of V3 trap or v3get/v3set.
-            - Password is a string of 8 to 16 alphanumeric characters.
+            - Set the authentication password for the V3 trap or v3get/v3set.
+            - The password is a string of 8 to 16 alphanumeric characters.
             - Required when I(auth_protocol) is either C(SHA) or C(MD5).
         type: str
     priv_protocol:
         description:
-            - Choose Privacy of V3 trap or v3get/v3set.
+            - Choose the privacy protocol for the V3 trap or v3get/v3set.
         choices: ['NONE', 'DES', 'AES']
         type: str
     priv_password:
         description:
-            - Set privacy password of V3 trap or v3get/v3set.
-            - Password is a string of 8 to 16 alphanumeric characters.
+            - Set the privacy password for the V3 trap or v3get/v3set.
+            - The password is a string of 8 to 16 alphanumeric characters.
             - Required when I(priv_protocol) is either C(DES) or C(AES).
         type: str
 extends_documentation_fragment:
