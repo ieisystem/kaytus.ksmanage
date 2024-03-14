@@ -38,7 +38,7 @@ options:
         type: str
     over_ride:
         description:
-            - Reserve Configrations,0-reserve, 1-override.
+            - Reserve Configurations,0-reserve, 1-override.
         default: 0
         choices: [0, 1]
         type: int

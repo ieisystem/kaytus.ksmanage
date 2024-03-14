@@ -28,7 +28,7 @@ options:
         type: str
     remote_media_support:
         description:
-            - To enable or disable Remote Media support,check or uncheck the checbox respectively.
+            - To enable or disable Remote Media support,check or uncheck the checkbox respectively.
         choices: ['Enable', 'Disable']
         type: str
     mount_type:

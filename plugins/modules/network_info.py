@@ -16,7 +16,7 @@ author:
     - WangBaoshan (@ieisystem)
 short_description: Get network information
 description:
-   - Get netowrk information on kaytus Server.
+   - Get network information on kaytus Server.
 notes:
    - Supports C(check_mode).
 options: {}

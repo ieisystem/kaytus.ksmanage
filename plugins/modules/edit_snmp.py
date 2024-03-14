@@ -75,7 +75,7 @@ options:
     auth_password:
         description:
             - Set auth password of V3 trap or v3get/v3set.
-            - Password is a string of 8 to 16 alpha-numeric characters.
+            - Password is a string of 8 to 16 alphanumeric characters.
             - Required when I(auth_protocol) is either C(SHA) or C(MD5).
         type: str
     priv_protocol:
@@ -86,7 +86,7 @@ options:
     priv_password:
         description:
             - Set privacy password of V3 trap or v3get/v3set.
-            - Password is a string of 8 to 16 alpha-numeric characters.
+            - Password is a string of 8 to 16 alphanumeric characters.
             - Required when I(priv_protocol) is either C(DES) or C(AES).
         type: str
 extends_documentation_fragment:

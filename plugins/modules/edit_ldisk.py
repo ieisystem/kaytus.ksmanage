@@ -37,7 +37,7 @@ options:
         type: int
     option:
         description:
-            - Set operation options fo logical disk.
+            - Set operation options for a logical disk.
             - LOC is Locate Logical Drive,STL is Stop Locate LogicalDrive.
             - FI is Fast Initialization,SFI is Slow/Full Initialization.
             - SI is Stop Initialization,DEL is Delete LogicalDrive.

@@ -37,7 +37,7 @@ options:
         type: int
     option:
         description:
-            - Set operation options fo physical disk.
+            - Set operation options for a physical disk.
             - UG is Unconfigured Good,UB is Unconfigured Bad.
             - OFF is offline,FAIL is Failed,RBD is Rebuild.
             - ON is Online,JB is JBOD,ES is Drive Erase stop.
