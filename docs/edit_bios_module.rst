@@ -100,7 +100,7 @@ Parameters
                                                                                                                                                             </td>
                                                                 <td>
                                             <div>BIOS option file.attribute must be used with value.</div>
-                                            <div>Mutually exclusive with fileurl format,&quot;/directory/filename&quot;.</div>
+                                            <div>Mutually exclusive with fileurl format, &quot;/directory/filename&quot;.</div>
                                                         </td>
             </tr>
                                 <tr>

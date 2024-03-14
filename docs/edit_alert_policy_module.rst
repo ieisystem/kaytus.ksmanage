@@ -103,9 +103,9 @@ Parameters
                                 <td>
                                                                                                                                                             </td>
                                                                 <td>
-                                            <div>Alert destination,when type is snmp,fill in IP.</div>
-                                            <div>When type is email,fill in user name.</div>
-                                            <div>When type is snmpdomain,fill in domain.</div>
+                                            <div>Alert destination, when type is snmp, fill in IP.</div>
+                                            <div>When type is email, fill in user name.</div>
+                                            <div>When type is snmpdomain, fill in domain.</div>
                                                         </td>
             </tr>
                                 <tr>
@@ -142,8 +142,8 @@ Parameters
                                                                             </td>
                                                                 <td>
                                             <div>Alert id.</div>
-                                            <div>The values for M5 modules are 1,2,3.</div>
-                                            <div>The values for M6 modules are 1,2,3,4.</div>
+                                            <div>The values for M5 modules are 1, 2, 3.</div>
+                                            <div>The values for M6 modules are 1, 2, 3, 4.</div>
                                                         </td>
             </tr>
                                 <tr>

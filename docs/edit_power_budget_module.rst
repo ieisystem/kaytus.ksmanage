@@ -125,7 +125,7 @@ Parameters
                                 <td>
                                                                                                                                                             </td>
                                                                 <td>
-                                            <div>Pause period of add, end time,must be greater than start time,from 0 to 24.</div>
+                                            <div>Pause period of add, end time, must be greater than start time, from 0 to 24.</div>
                                                         </td>
             </tr>
                                 <tr>
@@ -140,7 +140,7 @@ Parameters
                                 <td>
                                                                                                                                                             </td>
                                                                 <td>
-                                            <div>Pause period of add, end time,must be greater than start time,from 0 to 24.</div>
+                                            <div>Pause period of add, end time, must be greater than start time, from 0 to 24.</div>
                                                         </td>
             </tr>
                                 <tr>
@@ -155,7 +155,7 @@ Parameters
                                 <td>
                                                                                                                                                             </td>
                                                                 <td>
-                                            <div>Pause period of add, end time,must be greater than start time,from 0 to 24.</div>
+                                            <div>Pause period of add, end time, must be greater than start time, from 0 to 24.</div>
                                                         </td>
             </tr>
                                 <tr>
@@ -170,7 +170,7 @@ Parameters
                                 <td>
                                                                                                                                                             </td>
                                                                 <td>
-                                            <div>Pause period of add, end time,must be greater than start time,from 0 to 24.</div>
+                                            <div>Pause period of add, end time, must be greater than start time, from 0 to 24.</div>
                                                         </td>
             </tr>
                                 <tr>
@@ -185,7 +185,7 @@ Parameters
                                 <td>
                                                                                                                                                             </td>
                                                                 <td>
-                                            <div>Pause period of add, end time,must be greater than start time,from 0 to 24.</div>
+                                            <div>Pause period of add, end time, must be greater than start time, from 0 to 24.</div>
                                                         </td>
             </tr>
                                 <tr>
@@ -463,7 +463,7 @@ Parameters
                                 <td>
                                                                                                                                                             </td>
                                                                 <td>
-                                            <div>Pause period of add,repetition period,the input parameters are &#x27;Mon&#x27;,&#x27;Tue&#x27;,&#x27;Wed&#x27;,&#x27;Thur&#x27;,&#x27;Fri&#x27;,&#x27;Sat&#x27;,&#x27;Sun&#x27;,separated by commas,such as Mon,Wed,Fri.</div>
+                                            <div>Pause period of add, repetition period, the input parameters are &#x27;Mon&#x27;, &#x27;Tue&#x27;, &#x27;Wed&#x27;, &#x27;Thur&#x27;, &#x27;Fri&#x27;, &#x27;Sat&#x27;, &#x27;Sun&#x27;, separated by commas, such as Mon, Wed, Fri.</div>
                                                         </td>
             </tr>
                                 <tr>
@@ -478,7 +478,7 @@ Parameters
                                 <td>
                                                                                                                                                             </td>
                                                                 <td>
-                                            <div>Pause period of add,repetition period,the input parameters are &#x27;Mon&#x27;,&#x27;Tue&#x27;,&#x27;Wed&#x27;,&#x27;Thur&#x27;,&#x27;Fri&#x27;,&#x27;Sat&#x27;,&#x27;Sun&#x27;,separated by commas,such as Mon,Wed,Fri.</div>
+                                            <div>Pause period of add, repetition period, the input parameters are &#x27;Mon&#x27;, &#x27;Tue&#x27;, &#x27;Wed&#x27;, &#x27;Thur&#x27;, &#x27;Fri&#x27;, &#x27;Sat&#x27;, &#x27;Sun&#x27;, separated by commas, such as Mon, Wed, Fri.</div>
                                                         </td>
             </tr>
                                 <tr>
@@ -493,7 +493,7 @@ Parameters
                                 <td>
                                                                                                                                                             </td>
                                                                 <td>
-                                            <div>Pause period of add,repetition period,the input parameters are &#x27;Mon&#x27;,&#x27;Tue&#x27;,&#x27;Wed&#x27;,&#x27;Thur&#x27;,&#x27;Fri&#x27;,&#x27;Sat&#x27;,&#x27;Sun&#x27;,separated by commas,such as Mon,Wed,Fri.</div>
+                                            <div>Pause period of add, repetition period, the input parameters are &#x27;Mon&#x27;, &#x27;Tue&#x27;, &#x27;Wed&#x27;, &#x27;Thur&#x27;, &#x27;Fri&#x27;, &#x27;Sat&#x27;, &#x27;Sun&#x27;, separated by commas, such as Mon, Wed, Fri.</div>
                                                         </td>
             </tr>
                                 <tr>
@@ -508,7 +508,7 @@ Parameters
                                 <td>
                                                                                                                                                             </td>
                                                                 <td>
-                                            <div>Pause period of add,repetition period,the input parameters are &#x27;Mon&#x27;,&#x27;Tue&#x27;,&#x27;Wed&#x27;,&#x27;Thur&#x27;,&#x27;Fri&#x27;,&#x27;Sat&#x27;,&#x27;Sun&#x27;,separated by commas,such as Mon,Wed,Fri.</div>
+                                            <div>Pause period of add, repetition period, the input parameters are &#x27;Mon&#x27;, &#x27;Tue&#x27;, &#x27;Wed&#x27;, &#x27;Thur&#x27;, &#x27;Fri&#x27;, &#x27;Sat&#x27;, &#x27;Sun&#x27;, separated by commas, such as Mon, Wed, Fri.</div>
                                                         </td>
             </tr>
                                 <tr>
@@ -523,7 +523,7 @@ Parameters
                                 <td>
                                                                                                                                                             </td>
                                                                 <td>
-                                            <div>Pause period of add,repetition period,the input parameters are &#x27;Mon&#x27;,&#x27;Tue&#x27;,&#x27;Wed&#x27;,&#x27;Thur&#x27;,&#x27;Fri&#x27;,&#x27;Sat&#x27;,&#x27;Sun&#x27;,separated by commas,such as Mon,Wed,Fri.</div>
+                                            <div>Pause period of add, repetition period, the input parameters are &#x27;Mon&#x27;, &#x27;Tue&#x27;, &#x27;Wed&#x27;, &#x27;Thur&#x27;, &#x27;Fri&#x27;, &#x27;Sat&#x27;, &#x27;Sun&#x27;, separated by commas, such as Mon, Wed, Fri.</div>
                                                         </td>
             </tr>
                         </table>

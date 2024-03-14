@@ -267,7 +267,7 @@ Parameters
                                 <td>
                                                                                                                                                             </td>
                                                                 <td>
-                                            <div>Read Only Community,Community should between 1 and 16 characters.</div>
+                                            <div>Read Only Community, Community should between 1 and 16 characters.</div>
                                             <div>Only the M6 models support this feature.</div>
                                                         </td>
             </tr>
@@ -283,7 +283,7 @@ Parameters
                                 <td>
                                                                                                                                                             </td>
                                                                 <td>
-                                            <div>Read And Write Community,Community should between 1 and 16 characters.</div>
+                                            <div>Read And Write Community, Community should between 1 and 16 characters.</div>
                                             <div>Only the M6 models support this feature.</div>
                                                         </td>
             </tr>
@@ -300,7 +300,7 @@ Parameters
                                                                                                                                                             </td>
                                                                 <td>
                                             <div>NMP read/write status of customize.</div>
-                                            <div>The input parameters are &#x27;v1get&#x27;, &#x27;v1set&#x27;, &#x27;v2cget&#x27;, &#x27;v2cset&#x27;, &#x27;v3get&#x27;, &#x27;v3set&#x27;,separated by commas,such as v1get,v1set,v2cget.</div>
+                                            <div>The input parameters are &#x27;v1get&#x27;, &#x27;v1set&#x27;, &#x27;v2cget&#x27;, &#x27;v2cset&#x27;, &#x27;v3get&#x27;, &#x27;v3set&#x27;, separated by commas, such as v1get, v1set, v2cget.</div>
                                             <div>Only the M5 models support this feature.</div>
                                                         </td>
             </tr>

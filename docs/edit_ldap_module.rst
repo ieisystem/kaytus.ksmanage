@@ -120,7 +120,7 @@ Parameters
                                             <div>Search Base.</div>
                                             <div>Search base is a string of 4 to 64 alpha-numeric characters.</div>
                                             <div>It must start with an alphabetical character.</div>
-                                            <div>Special Symbols like dot(.), comma(,), hyphen(-), underscore(_), equal-to(=) are allowed.</div>
+                                            <div>Special Symbols like dot(.), comma(, ), hyphen(-), underscore(_), equal-to(=) are allowed.</div>
                                                         </td>
             </tr>
                                 <tr>
@@ -206,7 +206,7 @@ Parameters
                                             <div>Bind DN.</div>
                                             <div>Bind DN is a string of 4 to 64 alpha-numeric characters.</div>
                                             <div>It must start with an alphabetical character.</div>
-                                            <div>Special Symbols like dot(.), comma(,), hyphen(-), underscore(_), equal-to(=) are allowed.</div>
+                                            <div>Special Symbols like dot(.), comma(, ), hyphen(-), underscore(_), equal-to(=) are allowed.</div>
                                                         </td>
             </tr>
                                 <tr>
@@ -433,7 +433,7 @@ Examples
           encry: "SSL"
           address: "100.2.2.2"
           server_port: 389
-          dn: "cn=manager,ou=login,dc=domain,dc=com"
+          dn: "cn=manager, ou=login, dc=domain, dc=com"
           code: "123456"
           base: "cn=manager"
           attr: "uid"
