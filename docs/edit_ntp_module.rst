@@ -228,7 +228,7 @@ Parameters
                                 <td>
                                                                                                                                                             </td>
                                                                 <td>
-                                            <div>NTP Server1(ipv4 or ipv6 or domain name), set when auto_dateis enable.</div>
+                                            <div>NTP Server1(ipv4 or ipv6 or domain name), set when auto_date is enable.</div>
                                                         </td>
             </tr>
                                 <tr>
@@ -273,7 +273,7 @@ Parameters
                                 <td>
                                                                                                                                                             </td>
                                                                 <td>
-                                            <div>NTP Server1(ipv4 or ipv6 or domain name), set when auto_dateis enable.</div>
+                                            <div>NTP Server4(ipv4 or ipv6 or domain name), set when auto_date is enable.</div>
                                                         </td>
             </tr>
                                 <tr>
@@ -288,7 +288,7 @@ Parameters
                                 <td>
                                                                                                                                                             </td>
                                                                 <td>
-                                            <div>NTP Server2(ipv4 or ipv6 or domain name), set when auto_date is enable.</div>
+                                            <div>NTP Server5(ipv4 or ipv6 or domain name), set when auto_date is enable.</div>
                                                         </td>
             </tr>
                                 <tr>
@@ -303,7 +303,7 @@ Parameters
                                 <td>
                                                                                                                                                             </td>
                                                                 <td>
-                                            <div>NTP Server3(ipv4 or ipv6 or domain name), set when auto_date is enable.</div>
+                                            <div>NTP Server6(ipv4 or ipv6 or domain name), set when auto_date is enable.</div>
                                                         </td>
             </tr>
                                 <tr>

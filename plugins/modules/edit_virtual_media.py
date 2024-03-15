@@ -39,7 +39,7 @@ options:
         type: str
     same_settings:
         description:
-            - Same settings with CD, 0 is No, 1 is Yes.
+            - Same settings with I(CD), 0 is No, 1 is Yes.
             - Required when I(mount_type=0).
         choices: [0, 1]
         type: int

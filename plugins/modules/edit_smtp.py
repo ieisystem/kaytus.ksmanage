@@ -88,7 +88,7 @@ options:
     secondary_username:
         description:
             - Secondary SMTP server Username, length be 4 to 64 bits.
-            - Must start with letters and cannot contain ', '(comma) ':'(colon) ' '(space) ';'(semicolon) '\\'(backslash).
+            - Must start with letters and cannot contain ','(comma) ':'(colon) ' '(space) ';'(semicolon) '\\'(backslash).
         type: str
     secondary_password:
         description:

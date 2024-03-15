@@ -36,23 +36,25 @@ options:
         type: str
     server_port:
         description:
-            - Server Port.
+            - Server Port. Specify the LDAP/E-Directory Port.
         type: int
     dn:
         description:
-            - Bind DN.
+            - Bind DN. The Bind DN is used in bind operations, which authenticates the client to the server.
             - Bind DN is a string of 4 to 64 alphanumeric characters.
             - It must start with an alphabetical character.
             - Special Symbols like dot(.), comma(, ), hyphen(-), underscore(_), equal-to(=) are allowed.
         type: str
     code:
         description:
-            - Password.
+            - Password. The Bind password is also used in the bind authentication operations between client and server.
             - Required when I(enable=enable).
         type: str
     base:
         description:
             - Search Base.
+            - The Search Base allows the LDAP/E-Directory server to find which part of the external directory tree is to be searched.
+            - This search base may be equivalent to the organization or the group of the external directory.
             - Search base is a string of 4 to 64 alphanumeric characters.
             - It must start with an alphabetical character.
             - Special Symbols like dot(.), comma(, ), hyphen(-), underscore(_), equal-to(=) are allowed.
@@ -60,6 +62,7 @@ options:
     attr:
         description:
             - Attribute of User Login.
+            - The Attribute of User Login field indicates to the LDAP/E-Directory server which attribute should be used to identify the user.
         choices: ['cn', 'uid']
         type: str
     cn:

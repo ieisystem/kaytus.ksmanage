@@ -22,7 +22,7 @@ notes:
 options:
     id:
         description:
-            - Alert id.
+            - Alert id. Customize the channel for sending alarms in Trap.
             - The values for M5 modules are 1, 2, 3.
             - The values for M6 modules are 1, 2, 3, 4.
         choices: [1, 2, 3, 4]
@@ -30,7 +30,7 @@ options:
         type: int
     status:
         description:
-            - Alert policy status.
+            - Alert policy status. Whether to enable the receiving end for sending messages in trap mode.
         choices: ['enable', 'disable']
         type: str
     type:
@@ -41,7 +41,8 @@ options:
         type: str
     destination:
         description:
-            - Alert destination, when type is snmp, specify an IP address.
+            - Alert destination. The address of the server receiving trap information sent by Trap.
+            - when type is snmp, specify an IP address.
             - When type is email, specify a username.
             - When type is snmpdomain, specify a domain.
         type: str

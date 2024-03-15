@@ -357,7 +357,7 @@ Parameters
                                                                                     </ul>
                                                                             </td>
                                                                 <td>
-                                            <div>Same settings with CD, 0 is No, 1 is Yes.</div>
+                                            <div>Same settings with <em>CD</em>, 0 is No, 1 is Yes.</div>
                                             <div>Required when <em>mount_type=0</em>.</div>
                                                         </td>
             </tr>

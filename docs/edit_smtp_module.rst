@@ -428,7 +428,7 @@ Parameters
                                                                                                                                                             </td>
                                                                 <td>
                                             <div>Secondary SMTP server Username, length be 4 to 64 bits.</div>
-                                            <div>Must start with letters and cannot contain &#x27;, &#x27;(comma) &#x27;:&#x27;(colon) &#x27; &#x27;(space) &#x27;;&#x27;(semicolon) &#x27;\&#x27;(backslash).</div>
+                                            <div>Must start with letters and cannot contain &#x27;,&#x27;(comma) &#x27;:&#x27;(colon) &#x27; &#x27;(space) &#x27;;&#x27;(semicolon) &#x27;\&#x27;(backslash).</div>
                                                         </td>
             </tr>
                                 <tr>
