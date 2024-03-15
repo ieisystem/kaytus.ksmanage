@@ -22,7 +22,7 @@ notes:
 options:
     id:
         description:
-            - Alert id. Customize the channel for sending alarms in Trap. 
+            - Alert id. Customize the channel for sending alarms in Trap.
             - The values for M5 modules are 1, 2, 3.
             - The values for M6 modules are 1, 2, 3, 4.
         choices: [1, 2, 3, 4]

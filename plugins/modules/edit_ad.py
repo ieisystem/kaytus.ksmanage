@@ -49,15 +49,15 @@ options:
         type: str
     addr1:
         description:
-            - Domain Controller Server Address1. Enter the IP address of Active Directory server. 
+            - Domain Controller Server Address1. Enter the IP address of Active Directory server.
         type: str
     addr2:
         description:
-            - Domain Controller Server Address2. Enter the IP address of Active Directory server. 
+            - Domain Controller Server Address2. Enter the IP address of Active Directory server.
         type: str
     addr3:
         description:
-            - Domain Controller Server Address3. Enter the IP address of Active Directory server. 
+            - Domain Controller Server Address3. Enter the IP address of Active Directory server.
         type: str
 extends_documentation_fragment:
     - kaytus.ksmanage.ksmanage

@@ -73,7 +73,7 @@ options:
         type: str
     ca:
         description:
-            - CA certificate file path. 
+            - CA certificate file path.
             - Required when I(encry=StartTLS).
         type: str
     ce:
