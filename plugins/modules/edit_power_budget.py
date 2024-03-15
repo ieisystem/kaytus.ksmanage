@@ -65,7 +65,8 @@ options:
         type: int
     week1:
         description:
-            - Pause period of add, repetition period, the input parameters are 'Mon', 'Tue', 'Wed', 'Thur', 'Fri', 'Sat', 'Sun', separated by commas, such as Mon, Wed, Fri.
+            - Pause period of add, repetition period.
+            - The input parameters are 'Mon', 'Tue', 'Wed', 'Thur', 'Fri', 'Sat', 'Sun', separated by commas, such as Mon, Wed, Fri.
         type: list
         elements: str
     start2:
@@ -78,7 +79,8 @@ options:
         type: int
     week2:
         description:
-            - Pause period of add, repetition period, the input parameters are 'Mon', 'Tue', 'Wed', 'Thur', 'Fri', 'Sat', 'Sun', separated by commas, such as Mon, Wed, Fri.
+            - Pause period of add, repetition period.
+            - The input parameters are 'Mon', 'Tue', 'Wed', 'Thur', 'Fri', 'Sat', 'Sun', separated by commas, such as Mon, Wed, Fri.
         type: list
         elements: str
     start3:
@@ -91,7 +93,8 @@ options:
         type: int
     week3:
         description:
-            - Pause period of add, repetition period, the input parameters are 'Mon', 'Tue', 'Wed', 'Thur', 'Fri', 'Sat', 'Sun', separated by commas, such as Mon, Wed, Fri.
+            - Pause period of add, repetition period.
+            - The input parameters are 'Mon', 'Tue', 'Wed', 'Thur', 'Fri', 'Sat', 'Sun', separated by commas, such as Mon, Wed, Fri.
         type: list
         elements: str
     start4:
@@ -104,7 +107,8 @@ options:
         type: int
     week4:
         description:
-            - Pause period of add, repetition period, the input parameters are 'Mon', 'Tue', 'Wed', 'Thur', 'Fri', 'Sat', 'Sun', separated by commas, such as Mon, Wed, Fri.
+            - Pause period of add, repetition period.
+            - The input parameters are 'Mon', 'Tue', 'Wed', 'Thur', 'Fri', 'Sat', 'Sun', separated by commas, such as Mon, Wed, Fri.
         type: list
         elements: str
     start5:
@@ -117,7 +121,8 @@ options:
         type: int
     week5:
         description:
-            - Pause period of add, repetition period, the input parameters are 'Mon', 'Tue', 'Wed', 'Thur', 'Fri', 'Sat', 'Sun', separated by commas, such as Mon, Wed, Fri.
+            - Pause period of add, repetition period.
+            - The input parameters are 'Mon', 'Tue', 'Wed', 'Thur', 'Fri', 'Sat', 'Sun', separated by commas, such as Mon, Wed, Fri.
         type: list
         elements: str
 extends_documentation_fragment:

@@ -31,7 +31,8 @@ options:
             - The values for M5 modules are 'all', 'network', 'service', 'ntp', 'snmptrap', 'dns', 'smtp', 'ad', 'ldap', 'user', 'bios'.
             - The values for M6 modules are 'all', 'network', 'service', 'ntp', 'snmptrap',  'kvm', 'ipmi', 'authentication', 'syslog'.
             - The values for M7 modules are 'all', 'network', 'service', 'syslog', 'ncsi'.
-        choices: ['all', 'network', 'service', 'ntp', 'snmptrap', 'dns', 'smtp', 'ad', 'ldap', 'user', 'bios', 'kvm', 'ipmi', 'authentication', 'syslog', 'ncsi']
+        choices: ['all', 'network', 'service', 'ntp', 'snmptrap', 'dns', 'smtp', 'ad', 'ldap',
+         'user', 'bios', 'kvm', 'ipmi', 'authentication', 'syslog', 'ncsi']
         required: true
         type: str
 extends_documentation_fragment:
