@@ -27,7 +27,7 @@ options:
         type: str
     host_cfg:
         description:
-            - Host Settings.
+            - Host Settings. Select whether the host name will be configured manually or automatically.
         choices: ['manual', 'auto']
         type: str
     host_name:
@@ -37,7 +37,7 @@ options:
         type: str
     domain_manual:
         description:
-            - Domain Settings.
+            - Domain Settings. Select whether the domain interface will be configured manually or automatically.
         choices: ['manual', 'auto']
         type: str
     domain_iface:
@@ -52,7 +52,7 @@ options:
         type: str
     dns_manual:
         description:
-            - DNS Settings.
+            - DNS Settings. Select whether the DNS interface will be configured manually or automatically.
         choices: ['manual', 'auto']
         type: str
     dns_iface:

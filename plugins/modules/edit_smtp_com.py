@@ -37,7 +37,7 @@ options:
         type: int
     server_secure_port:
         description:
-            - SMTP server sesure port, The Identification for retry count configuration(1-65535).
+            - SMTP server secure port, The Identification for retry count configuration(1-65535).
         type: int
     email:
         description:
@@ -51,7 +51,7 @@ options:
     server_username:
         description:
             - SMTP server Username, length be 4 to 64 bits.
-            - Must start with letters and cannot contain ', '(comma) ':'(colon) ' '(space) ';'(semicolon) '\\'(backslash).
+            - Must start with letters and cannot contain ','(comma) ':'(colon) ' '(space) ';'(semicolon) '\\'(backslash).
             - Required when I(server_auth=enable).
         type: str
     server_password:

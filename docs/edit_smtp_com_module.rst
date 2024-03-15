@@ -335,7 +335,7 @@ Parameters
                                 <td>
                                                                                                                                                             </td>
                                                                 <td>
-                                            <div>SMTP server sesure port, The Identification for retry count configuration(1-65535).</div>
+                                            <div>SMTP server secure port, The Identification for retry count configuration(1-65535).</div>
                                                         </td>
             </tr>
                                 <tr>
@@ -351,7 +351,7 @@ Parameters
                                                                                                                                                             </td>
                                                                 <td>
                                             <div>SMTP server Username, length be 4 to 64 bits.</div>
-                                            <div>Must start with letters and cannot contain &#x27;, &#x27;(comma) &#x27;:&#x27;(colon) &#x27; &#x27;(space) &#x27;;&#x27;(semicolon) &#x27;\&#x27;(backslash).</div>
+                                            <div>Must start with letters and cannot contain &#x27;,&#x27;(comma) &#x27;:&#x27;(colon) &#x27; &#x27;(space) &#x27;;&#x27;(semicolon) &#x27;\&#x27;(backslash).</div>
                                             <div>Required when <em>server_auth=enable</em>.</div>
                                                         </td>
             </tr>

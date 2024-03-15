@@ -103,7 +103,8 @@ Parameters
                                 <td>
                                                                                                                                                             </td>
                                                                 <td>
-                                            <div>Alert destination, when type is snmp, specify an IP address.</div>
+                                            <div>Alert destination. The address of the server receiving trap information sent by Trap.</div>
+                                            <div>when type is snmp, specify an IP address.</div>
                                             <div>When type is email, specify a username.</div>
                                             <div>When type is snmpdomain, specify a domain.</div>
                                                         </td>
@@ -141,7 +142,7 @@ Parameters
                                                                                     </ul>
                                                                             </td>
                                                                 <td>
-                                            <div>Alert id.</div>
+                                            <div>Alert id. Customize the channel for sending alarms in Trap.</div>
                                             <div>The values for M5 modules are 1, 2, 3.</div>
                                             <div>The values for M6 modules are 1, 2, 3, 4.</div>
                                                         </td>
@@ -241,7 +242,7 @@ Parameters
                                                                                     </ul>
                                                                             </td>
                                                                 <td>
-                                            <div>Alert policy status.</div>
+                                            <div>Alert policy status. Whether to enable the receiving end for sending messages in trap mode.</div>
                                                         </td>
             </tr>
                                 <tr>

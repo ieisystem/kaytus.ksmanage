@@ -103,7 +103,7 @@ Parameters
                                                                                     </ul>
                                                                             </td>
                                                                 <td>
-                                            <div>DNS Settings.</div>
+                                            <div>DNS Settings. Select whether the DNS interface will be configured manually or automatically.</div>
                                                         </td>
             </tr>
                                 <tr>
@@ -225,7 +225,7 @@ Parameters
                                                                                     </ul>
                                                                             </td>
                                                                 <td>
-                                            <div>Domain Settings.</div>
+                                            <div>Domain Settings. Select whether the domain interface will be configured manually or automatically.</div>
                                                         </td>
             </tr>
                                 <tr>
@@ -275,7 +275,7 @@ Parameters
                                                                                     </ul>
                                                                             </td>
                                                                 <td>
-                                            <div>Host Settings.</div>
+                                            <div>Host Settings. Select whether the host name will be configured manually or automatically.</div>
                                                         </td>
             </tr>
                                 <tr>
