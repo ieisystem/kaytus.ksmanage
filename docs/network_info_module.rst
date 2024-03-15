@@ -42,7 +42,7 @@ Synopsis
 
 .. Description
 
-- Get netowrk information on kaytus Server.
+- Get network information on kaytus Server.
 
 
 .. Aliases

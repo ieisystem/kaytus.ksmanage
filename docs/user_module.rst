@@ -268,7 +268,7 @@ Parameters
                                 <td>
                                                                                                                                                             </td>
                                                                 <td>
-                                            <div>User id,The range is 1 to 16.</div>
+                                            <div>User id, The range is 1 to 16.</div>
                                                         </td>
             </tr>
                                 <tr>
@@ -283,7 +283,7 @@ Parameters
                                 <td>
                                                                                                                                                             </td>
                                                                 <td>
-                                            <div>User name,Required when uid is None.</div>
+                                            <div>User name, Required when uid is None.</div>
                                                         </td>
             </tr>
                                 <tr>
@@ -357,7 +357,7 @@ Examples
           uname: "wbs"
           upass: "admin"
           role_id: "Administrator"
-          priv: "kvm,sol"
+          priv: "kvm, sol"
           email: "wbs@ieisystem.com"
           provider: "{{ ksmanage }}"
 
@@ -367,7 +367,7 @@ Examples
           uname: "wbs"
           upass: "12345678"
           role_id: "user"
-          priv: "kvm,sol"
+          priv: "kvm, sol"
           provider: "{{ ksmanage }}"
 
 

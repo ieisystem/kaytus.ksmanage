@@ -42,7 +42,7 @@ Synopsis
 
 .. Description
 
-- Collect logs on kaytus Server,it takes about 5 minutes.
+- Collect logs on kaytus Server, it takes about 5 minutes.
 
 
 .. Aliases

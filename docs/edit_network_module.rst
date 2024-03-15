@@ -42,7 +42,7 @@ Synopsis
 
 .. Description
 
-- Set netowrk information on kaytus Server.
+- Set network information on kaytus Server.
 
 
 .. Aliases

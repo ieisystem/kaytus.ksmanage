@@ -16,7 +16,7 @@ author:
     - WangBaoshan (@ieisystem)
 short_description: Set network information
 description:
-   - Set netowrk information on kaytus Server.
+   - Set network information on kaytus Server.
 notes:
    - Does not support C(check_mode).
 options:

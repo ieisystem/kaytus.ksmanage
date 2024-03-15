@@ -23,8 +23,8 @@ options:
     id:
         description:
             - Alert id.
-            - The values for M5 modules are 1,2,3.
-            - The values for M6 modules are 1,2,3,4.
+            - The values for M5 modules are 1, 2, 3.
+            - The values for M6 modules are 1, 2, 3, 4.
         choices: [1, 2, 3, 4]
         required: true
         type: int
@@ -41,9 +41,9 @@ options:
         type: str
     destination:
         description:
-            - Alert destination,when type is snmp,fill in IP.
-            - When type is email,fill in user name.
-            - When type is snmpdomain,fill in domain.
+            - Alert destination, when type is snmp, specify an IP address.
+            - When type is email, specify a username.
+            - When type is snmpdomain, specify a domain.
         type: str
     channel:
         description:
