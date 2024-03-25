@@ -5,6 +5,14 @@ CHANGE THIS IN changelogs/config.yaml! Release Notes
 .. contents:: Topics
 
 
+v1.1.2
+======
+
+Minor Changes
+-------------
+
+- Fix problems such as typos or grammatical errors in the document.
+
 v1.1.1
 ======
 
