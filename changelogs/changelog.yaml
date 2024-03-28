@@ -421,3 +421,11 @@ releases:
     fragments:
     - 11-edit_doc_spell.yaml
     release_date: '2024-03-25'
+  1.1.3:
+    changes:
+      minor_changes:
+      - Change the value of the dn field in the example so that the written argument
+        does not contain Spaces.
+    fragments:
+    - 13-eidt_ldap_examples.yml
+    release_date: '2024-03-28'

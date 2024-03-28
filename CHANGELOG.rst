@@ -5,6 +5,14 @@ CHANGE THIS IN changelogs/config.yaml! Release Notes
 .. contents:: Topics
 
 
+v1.1.3
+======
+
+Minor Changes
+-------------
+
+- Change the value of the dn field in the example so that the written argument does not contain Spaces.
+
 v1.1.2
 ======
 
