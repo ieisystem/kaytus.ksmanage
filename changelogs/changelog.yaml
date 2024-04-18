@@ -429,3 +429,22 @@ releases:
     fragments:
     - 13-eidt_ldap_examples.yml
     release_date: '2024-03-28'
+  1.2.0:
+    changes:
+      bugfixes:
+      - Add ansible 2.17 version tests to our CI test scripts (https://github.com/ieisystem/kaytus.ksmanage/pull/16).
+      - Delete the useless __init__.py file in modules and module_utils (https://github.com/ieisystem/kaytus.ksmanage/pull/15).
+      - ksmanage - Changed the message that no dependencies were installed (https://github.com/ieisystem/kaytus.ksmanage/pull/18).
+      removed_features:
+      - add_ldisk - Delete the ``add_ldisk.info`` parameter. Use ``kaytus.ksmanage.pdisk_info``
+        instead (https://github.com/ieisystem/kaytus.ksmanage/pull/17).
+      - edit_ldisk - Delete the ``edit_ldisk.info`` parameter. Use ``kaytus.ksmanage.ldisk_info``
+        instead (https://github.com/ieisystem/kaytus.ksmanage/pull/17).
+      - edit_pdisk - Delete the ``edit_pdisk.info`` parameter. Use ``kaytus.ksmanage.pdisk_info``
+        instead (https://github.com/ieisystem/kaytus.ksmanage/pull/17).
+    fragments:
+    - 15-delete_init_file.yml
+    - 16-ansible2.17_added_for_CI_testing.yml
+    - 17-remove_modules_info.yml
+    - 18-edit_module_utils.yml
+    release_date: '2024-04-18'
