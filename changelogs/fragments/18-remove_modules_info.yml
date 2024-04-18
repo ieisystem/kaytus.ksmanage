@@ -1,4 +1,0 @@
-removed_features:
-  - add_ldisk - Delete the ``add_ldisk.info`` parameter. Use ``kaytus.ksmanage.pdisk_info`` instead (https://github.com/ieisystem/kaytus.ksmanage/pull/18).
-  - edit_ldisk - Delete the ``edit_ldisk.info`` parameter. Use ``kaytus.ksmanage.ldisk_info`` instead (https://github.com/ieisystem/kaytus.ksmanage/pull/18).
-  - edit_pdisk - Delete the ``edit_pdisk.info`` parameter. Use ``kaytus.ksmanage.pdisk_info`` instead (https://github.com/ieisystem/kaytus.ksmanage/pull/18).
