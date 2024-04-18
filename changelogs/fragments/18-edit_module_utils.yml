@@ -1,0 +1,2 @@
+bugfixes:
+  - ksmanage - Changed the message that no dependencies were installed (https://github.com/ieisystem/kaytus.ksmanage/pull/18).
