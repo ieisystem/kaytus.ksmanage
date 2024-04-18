@@ -20,20 +20,15 @@ description:
 notes:
    - Does not support C(check_mode).
 options:
-    info:
-        description:
-            - Show controller and physical drive info.
-        choices: ['show']
-        type: str
     ctrl_id:
         description:
             - Raid controller ID.
-            - Required when I(Info=None) and controller type is LSI, PMC or MV.
+            - Required when controller type is LSI, PMC or MV.
         type: int
     level:
         description:
             - RAID Level, 0 - RAID0, 1 - RAID1, 5 - RAID5, 6 - RAID6, 10 - RAID10.
-            - Required when I(Info=None) and controller type is LSI or PMC.
+            - Required when and controller type is LSI or PMC.
         choices: [0, 1, 5, 6, 10]
         type: int
     size:
@@ -47,61 +42,61 @@ options:
     access:
         description:
             - Access Policy, 1 - Read Write, 2 - Read Only, 3 - Blocked.
-            - Required when I(Info=None) and controller type is LSI.
+            - Required when controller type is LSI.
         choices: [1, 2, 3]
         type: int
     r:
         description:
             - Read Policy, 1 - Read Ahead, 2 - No Read Ahead.
-            - Required when I(Info=None) and controller type is LSI.
+            - Required when controller type is LSI.
         choices: [1, 2]
         type: int
     w:
         description:
             - Write Policy, 1 - Write Through, 2 - Write Back, 3 - Write caching ok if bad BBU.
-            - Required when I(Info=None) and controller type is LSI.
+            - Required when controller type is LSI.
         choices: [1, 2, 3]
         type: int
     io:
         description:
             - IO Policy, 1 - Direct IO, 2 - Cached IO.
-            - Required when I(Info=None) and controller type is LSI.
+            - Required when controller type is LSI.
         choices: [1, 2]
         type: int
     cache:
         description:
             - Drive Cache, 1 - Unchanged, 2 - Enabled, 3 - Disabled.
-            - Required when I(Info=None) and controller type is LSI.
+            - Required when controller type is LSI.
         choices: [1, 2, 3]
         type: int
     init:
         description:
             - Init State, 1 - No Init, 2 - Quick Init, 3 - Full Init.
-            - Required when I(Info=None) and controller type is LSI.
+            - Required when controller type is LSI.
         choices: [1, 2, 3]
         type: int
     select:
         description:
             - Select Size, from 1 to 100.
-            - Required when I(Info=None) and controller type is LSI.
+            - Required when controller type is LSI.
         type: int
     slot:
         description:
             - Slot Num, input multiple slotNumber like 0, 1, 2....
-            - Required when I(Info=None) and controller type is LSI or PMC.
+            - Required when controller type is LSI or PMC.
         type: list
         elements: int
     accelerator:
         description:
             - Driver accelerator, 1 - 1h, 2 - 2h, 3 - 3h.
-            - Required when I(Info=None) and controller type is PMC.
+            - Required when controller type is PMC.
         choices: [1, 2, 3]
         type: int
     vname:
         description:
             - Virtual drive name.
-            - Required when I(Info=None) and controller type is PMC or server model is M7.
-            - Required when I(Info=None) and controller type is MV.
+            - Required when controller type is PMC or server model is M7.
+            - Required when controller type is MV.
         type: str
 extends_documentation_fragment:
     - kaytus.ksmanage.ksmanage
@@ -119,11 +114,6 @@ EXAMPLES = '''
       password: "{{ password }}"
 
   tasks:
-
-  - name: "Show pdisk information"
-    kaytus.ksmanage.add_ldisk:
-      info: "show"
-      provider: "{{ ksmanage }}"
 
   - name: "Add LSI ldisk"
     kaytus.ksmanage.add_ldisk:
@@ -208,7 +198,6 @@ class Disk(object):
 
 def main():
     argument_spec = dict(
-        info=dict(type='str', required=False, choices=['show']),
         ctrl_id=dict(type='int', required=False),
         level=dict(type='int', required=False, choices=[0, 1, 5, 6, 10]),
         size=dict(type='int', required=False, choices=[0, 1, 2, 3, 4, 5]),
