@@ -49,6 +49,6 @@ def get_connection(module):
     # else:
     dict_param = module.params
     if not ksmanage_temp:
-        module.fail_json(msg='ksmanage_sdk must be installed to use this module')
+        module.fail_json(msg='inManage must be installed to use this module')
     result = inmanage.main(dict_param)
     return result
