@@ -5,6 +5,23 @@ CHANGE THIS IN changelogs/config.yaml! Release Notes
 .. contents:: Topics
 
 
+v1.2.0
+======
+
+Removed Features (previously deprecated)
+----------------------------------------
+
+- add_ldisk - Delete the ``add_ldisk.info`` parameter. Use ``kaytus.ksmanage.pdisk_info`` instead (https://github.com/ieisystem/kaytus.ksmanage/pull/17).
+- edit_ldisk - Delete the ``edit_ldisk.info`` parameter. Use ``kaytus.ksmanage.ldisk_info`` instead (https://github.com/ieisystem/kaytus.ksmanage/pull/17).
+- edit_pdisk - Delete the ``edit_pdisk.info`` parameter. Use ``kaytus.ksmanage.pdisk_info`` instead (https://github.com/ieisystem/kaytus.ksmanage/pull/17).
+
+Bugfixes
+--------
+
+- Add ansible 2.17 version tests to our CI test scripts (https://github.com/ieisystem/kaytus.ksmanage/pull/16).
+- Delete the useless __init__.py file in modules and module_utils (https://github.com/ieisystem/kaytus.ksmanage/pull/15).
+- ksmanage - Changed the message that no dependencies were installed (https://github.com/ieisystem/kaytus.ksmanage/pull/18).
+
 v1.1.3
 ======
 
