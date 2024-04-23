@@ -448,3 +448,12 @@ releases:
     - 17-remove_modules_info.yml
     - 18-edit_module_utils.yml
     release_date: '2024-04-18'
+  1.2.1:
+    changes:
+      bugfixes:
+      - Change the example gather_facts no to false(https://github.com/ieisystem/kaytus.ksmanage/pull/20).
+      - Delete the unwanted links.yml file (https://github.com/ieisystem/kaytus.ksmanage/pull/21).
+    fragments:
+    - 20-edit_example_gather_facts.yml
+    - 21-delete_links.yml
+    release_date: '2024-04-23'

@@ -5,6 +5,15 @@ CHANGE THIS IN changelogs/config.yaml! Release Notes
 .. contents:: Topics
 
 
+v1.2.1
+======
+
+Bugfixes
+--------
+
+- Change the example gather_facts no to false(https://github.com/ieisystem/kaytus.ksmanage/pull/20).
+- Delete the unwanted links.yml file (https://github.com/ieisystem/kaytus.ksmanage/pull/21).
+
 v1.2.0
 ======
 
