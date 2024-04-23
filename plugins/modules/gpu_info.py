@@ -29,7 +29,7 @@ EXAMPLES = '''
 - name: GPU test
   hosts: ksmanage
   connection: local
-  gather_facts: no
+  gather_facts: false
   vars:
     ksmanage:
       host: "{{ ansible_ssh_host }}"
