@@ -1,0 +1,2 @@
+bugfixes:
+  - Change the example ``gather_facts: no`` to ``gather_facts: false``(https://github.com/ieisystem/kaytus.ksmanage/pull/20).

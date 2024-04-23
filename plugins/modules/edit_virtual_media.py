@@ -85,7 +85,7 @@ EXAMPLES = '''
   hosts: ksmanage
   no_log: true
   connection: local
-  gather_facts: no
+  gather_facts: false
   vars:
     ksmanage:
       host: "{{ ansible_ssh_host }}"
