@@ -457,3 +457,10 @@ releases:
     - 20-edit_example_gather_facts.yml
     - 21-delete_links.yml
     release_date: '2024-04-23'
+  1.2.2:
+    changes:
+      bugfixes:
+      - Remove venv files that were accidentally bundled in 1.2.2(https://github.com/ieisystem/kaytus.ksmanage/pull/23).
+    fragments:
+    - 23-delete_venv.yml
+    release_date: '2024-06-06'

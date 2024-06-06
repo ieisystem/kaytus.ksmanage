@@ -5,6 +5,14 @@ CHANGE THIS IN changelogs/config.yaml! Release Notes
 .. contents:: Topics
 
 
+v1.2.2
+======
+
+Bugfixes
+--------
+
+- Remove venv files that were accidentally bundled in 1.2.2(https://github.com/ieisystem/kaytus.ksmanage/pull/23).
+
 v1.2.1
 ======
 
