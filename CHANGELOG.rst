@@ -1,6 +1,6 @@
-====================================================
-CHANGE THIS IN changelogs/config.yaml! Release Notes
-====================================================
+=============================
+kaytus.ksmanage Release Notes
+=============================
 
 .. contents:: Topics
 
