@@ -464,3 +464,22 @@ releases:
     fragments:
     - 23-delete_venv.yml
     release_date: '2024-06-06'
+  2.0.0:
+    changes:
+      bugfixes:
+      - Edit ansible devel version tests to our CI test scripts (https://github.com/ieisystem/kaytus.ksmanage/pull/26).
+      - Modify the title information in changelogs config.yaml (https://github.com/ieisystem/kaytus.ksmanage/pull/25).
+      major_changes:
+      - Add new modules system_lock_mode_info, edit_system_lock_mode(https://github.com/ieisystem/kaytus.ksmanage/pull/27).
+    fragments:
+    - 25-edit_changelog_config.yml
+    - 26-edit_CI_devel.yml
+    - 27-edit_add_lock_mode.yml
+    modules:
+    - description: Set system lock mode information
+      name: edit_system_lock_mode
+      namespace: ''
+    - description: Get system lock mode information
+      name: system_lock_mode_info
+      namespace: ''
+    release_date: '2024-09-27'
