@@ -10,7 +10,11 @@ try:
     ksmanage_msg = ''
     ksmanage_temp = True
 except ImportError as e:
-    ksmanage_msg = e.msg
+    if sys.version_info.major == 2:
+        exc_type, exc_value, exc_traceback = sys.exc_info()
+        ksmanage_msg = str(exc_value)
+    else:
+        ksmanage_msg = e.msg
     ksmanage_temp = False
 from ansible.module_utils.basic import env_fallback
 from ansible.module_utils.six import iteritems
