@@ -80,6 +80,7 @@ Modules
 * :ref:`edit_smtp_dest <ansible_collections.kaytus.ksmanage.edit_smtp_dest_module>` -- Set SMTP information
 * :ref:`edit_snmp <ansible_collections.kaytus.ksmanage.edit_snmp_module>` -- Set snmp
 * :ref:`edit_snmp_trap <ansible_collections.kaytus.ksmanage.edit_snmp_trap_module>` -- Set snmp trap
+* :ref:`edit_system_lock_mode <ansible_collections.kaytus.ksmanage.edit_system_lock_mode_module>` -- Set system lock mode information
 * :ref:`edit_threshold <ansible_collections.kaytus.ksmanage.edit_threshold_module>` -- Set threshold information
 * :ref:`edit_uid <ansible_collections.kaytus.ksmanage.edit_uid_module>` -- Set UID
 * :ref:`edit_virtual_media <ansible_collections.kaytus.ksmanage.edit_virtual_media_module>` -- Set virtual media
@@ -89,6 +90,7 @@ Modules
 * :ref:`fan_info <ansible_collections.kaytus.ksmanage.fan_info_module>` -- Get fan information
 * :ref:`fru_info <ansible_collections.kaytus.ksmanage.fru_info_module>` -- Get fru information
 * :ref:`fw_version_info <ansible_collections.kaytus.ksmanage.fw_version_info_module>` -- Get firmware version information
+* :ref:`generate_ssl <ansible_collections.kaytus.ksmanage.generate_ssl_module>` -- Generate SSL certificate
 * :ref:`gpu_info <ansible_collections.kaytus.ksmanage.gpu_info_module>` -- Get GPU information
 * :ref:`hard_disk_info <ansible_collections.kaytus.ksmanage.hard_disk_info_module>` -- Get hard disk information
 * :ref:`hba_info <ansible_collections.kaytus.ksmanage.hba_info_module>` -- Get CPU information
@@ -128,7 +130,9 @@ Modules
 * :ref:`smtp_info <ansible_collections.kaytus.ksmanage.smtp_info_module>` -- Get SMTP information
 * :ref:`snmp_info <ansible_collections.kaytus.ksmanage.snmp_info_module>` -- Get snmp get/set information
 * :ref:`snmp_trap_info <ansible_collections.kaytus.ksmanage.snmp_trap_info_module>` -- Get snmp trap information
+* :ref:`ssl_info <ansible_collections.kaytus.ksmanage.ssl_info_module>` -- Get SSL certificate information
 * :ref:`support_info <ansible_collections.kaytus.ksmanage.support_info_module>` -- Get support information
+* :ref:`system_lock_mode_info <ansible_collections.kaytus.ksmanage.system_lock_mode_info_module>` -- Get system lock mode information
 * :ref:`system_log_info <ansible_collections.kaytus.ksmanage.system_log_info_module>` -- Get BMC system log information
 * :ref:`temp_info <ansible_collections.kaytus.ksmanage.temp_info_module>` -- Get temp information
 * :ref:`threshold_info <ansible_collections.kaytus.ksmanage.threshold_info_module>` -- Get threshold information
@@ -136,6 +140,7 @@ Modules
 * :ref:`update_cpld <ansible_collections.kaytus.ksmanage.update_cpld_module>` -- Update CPLD
 * :ref:`update_fw <ansible_collections.kaytus.ksmanage.update_fw_module>` -- Update firmware
 * :ref:`update_psu <ansible_collections.kaytus.ksmanage.update_psu_module>` -- Update PSU
+* :ref:`upload_ssl <ansible_collections.kaytus.ksmanage.upload_ssl_module>` -- Upload SSL certificate
 * :ref:`user <ansible_collections.kaytus.ksmanage.user_module>` -- Manage user
 * :ref:`user_group <ansible_collections.kaytus.ksmanage.user_group_module>` -- Manage user group
 * :ref:`user_group_info <ansible_collections.kaytus.ksmanage.user_group_info_module>` -- Get user group information

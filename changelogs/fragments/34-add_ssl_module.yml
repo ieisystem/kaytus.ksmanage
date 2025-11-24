@@ -1,0 +1,2 @@
+major_changes:
+  - "Add new modules upload_ssl,ssl_info,generate_ssl. (https://github.com/ieisystem/kaytus.ksmanage/pull/34)."

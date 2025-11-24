@@ -4,7 +4,7 @@
 
 .. Anchors
 
-.. _ansible_collections.kaytus.ksmanage.edit_network_bond_module:
+.. _ansible_collections.kaytus.ksmanage.upload_ssl_module:
 
 .. Anchors: short name for ansible.builtin
 
@@ -14,8 +14,8 @@
 
 .. Title
 
-kaytus.ksmanage.edit_network_bond -- Set network bond
-+++++++++++++++++++++++++++++++++++++++++++++++++++++
+kaytus.ksmanage.upload_ssl -- Upload SSL certificate
+++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 .. Collection note
 
@@ -24,11 +24,11 @@ kaytus.ksmanage.edit_network_bond -- Set network bond
 
     To install it use: :code:`ansible-galaxy collection install kaytus.ksmanage`.
 
-    To use it in a playbook, specify: :code:`kaytus.ksmanage.edit_network_bond`.
+    To use it in a playbook, specify: :code:`kaytus.ksmanage.upload_ssl`.
 
 .. version_added
 
-.. versionadded:: 1.0.0 of kaytus.ksmanage
+.. versionadded:: 3.0.0 of kaytus.ksmanage
 
 .. contents::
    :local:
@@ -42,7 +42,7 @@ Synopsis
 
 .. Description
 
-- Set network bond on kaytus Server.
+- Upload SSL certificate on kaytus Server.
 
 
 .. Aliases
@@ -73,41 +73,17 @@ Parameters
         </tr>
                     <tr>
                                                                 <td colspan="2">
-                    <div class="ansibleOptionAnchor" id="parameter-auto_config"></div>
-                    <b>auto_config</b>
-                    <a class="ansibleOptionLink" href="#parameter-auto_config" title="Permalink to this option"></a>
+                    <div class="ansibleOptionAnchor" id="parameter-certificate"></div>
+                    <b>certificate</b>
+                    <a class="ansibleOptionLink" href="#parameter-certificate" title="Permalink to this option"></a>
                     <div style="font-size: small">
                         <span style="color: purple">string</span>
-                                                                    </div>
+                                                 / <span style="color: red">required</span>                    </div>
                                                         </td>
                                 <td>
-                                                                                                                            <ul style="margin: 0; padding: 0"><b>Choices:</b>
-                                                                                                                                                                <li>enable</li>
-                                                                                                                                                                                                <li>disable</li>
-                                                                                    </ul>
-                                                                            </td>
+                                                                                                                                                            </td>
                                                                 <td>
-                                            <div>Enable this option to configure the interfaces in service configuration automatically.</div>
-                                            <div>Only the M5 model supports this parameter.</div>
-                                                        </td>
-            </tr>
-                                <tr>
-                                                                <td colspan="2">
-                    <div class="ansibleOptionAnchor" id="parameter-bond"></div>
-                    <b>bond</b>
-                    <a class="ansibleOptionLink" href="#parameter-bond" title="Permalink to this option"></a>
-                    <div style="font-size: small">
-                        <span style="color: purple">string</span>
-                                                                    </div>
-                                                        </td>
-                                <td>
-                                                                                                                            <ul style="margin: 0; padding: 0"><b>Choices:</b>
-                                                                                                                                                                <li>enable</li>
-                                                                                                                                                                                                <li>disable</li>
-                                                                                    </ul>
-                                                                            </td>
-                                                                <td>
-                                            <div>Network bond status, If VLAN is enabled for slave interfaces, then Bonding cannot be enabled.</div>
+                                            <div>New Certificate file.</div>
                                                         </td>
             </tr>
                                 <tr>
@@ -127,27 +103,6 @@ Parameters
             </tr>
                                 <tr>
                                                                 <td colspan="2">
-                    <div class="ansibleOptionAnchor" id="parameter-interface"></div>
-                    <b>interface</b>
-                    <a class="ansibleOptionLink" href="#parameter-interface" title="Permalink to this option"></a>
-                    <div style="font-size: small">
-                        <span style="color: purple">string</span>
-                                                                    </div>
-                                                        </td>
-                                <td>
-                                                                                                                            <ul style="margin: 0; padding: 0"><b>Choices:</b>
-                                                                                                                                                                <li>shared</li>
-                                                                                                                                                                                                <li>dedicated</li>
-                                                                                                                                                                                                <li>both</li>
-                                                                                    </ul>
-                                                                            </td>
-                                                                <td>
-                                            <div>Interface name.</div>
-                                            <div>The M6 model does not support <em>both</em>.</div>
-                                                        </td>
-            </tr>
-                                <tr>
-                                                                <td colspan="2">
                     <div class="ansibleOptionAnchor" id="parameter-password"></div>
                     <b>password</b>
                     <a class="ansibleOptionLink" href="#parameter-password" title="Permalink to this option"></a>
@@ -159,6 +114,21 @@ Parameters
                                                                                                                                                             </td>
                                                                 <td>
                                             <div>Specifies the password to use to authenticate the connection to the remote device. If the value is not specified in the task, the value of environment variable <code>ANSIBLE_NET_PASSWORD</code> will be used instead.</div>
+                                                        </td>
+            </tr>
+                                <tr>
+                                                                <td colspan="2">
+                    <div class="ansibleOptionAnchor" id="parameter-private"></div>
+                    <b>private</b>
+                    <a class="ansibleOptionLink" href="#parameter-private" title="Permalink to this option"></a>
+                    <div style="font-size: small">
+                        <span style="color: purple">string</span>
+                                                 / <span style="color: red">required</span>                    </div>
+                                                        </td>
+                                <td>
+                                                                                                                                                            </td>
+                                                                <td>
+                                            <div>New Private Key file.</div>
                                                         </td>
             </tr>
                                 <tr>
@@ -262,7 +232,7 @@ Examples
 .. code-block:: yaml+jinja
 
     
-    - name: Bond test
+    - name: Upload SSL test
       hosts: ksmanage
       connection: local
       gather_facts: false
@@ -274,12 +244,12 @@ Examples
 
       tasks:
 
-      - name: "Set network bond"
-        kaytus.ksmanage.edit_network_bond:
-          bond: "enable"
-          interface: "dedicated"
-          auto_config: "enable"
+      - name: "Upload SSL"
+        kaytus.ksmanage.upload_ssl:
+          certificate: "/opy/rsa_private_key.pem"
+          private: "/opy/rsa_public_key.pem"
           provider: "{{ ksmanage }}"
+
 
 
 
