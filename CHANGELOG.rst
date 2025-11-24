@@ -5,6 +5,30 @@ kaytus.ksmanage Release Notes
 .. contents:: Topics
 
 
+v3.0.0
+======
+
+Major Changes
+-------------
+
+- Add new modules upload_ssl,ssl_info,generate_ssl. (https://github.com/ieisystem/kaytus.ksmanage/pull/34).
+- The edit_m6_log_setting.py module has added the 'server_status' attribute; The edit_network_bond.py module modifies the attribute descriptions; The edit_snmp.py and edit_snmp_trap.py module modifies the allowable value ranges for the auth_protocol and priv_protocol attributes. (https://github.com/ieisystem/kaytus.ksmanage/pull/33).
+
+Bugfixes
+--------
+
+- Modify the automated tests and add support for version 2.18. (https://github.com/ieisystem/kaytus.ksmanage/pull/31).
+- Modify the failure details returned in module_utils (https://github.com/ieisystem/kaytus.ksmanage/pull/29).
+- Modify the failure details returned in module_utils (https://github.com/ieisystem/kaytus.ksmanage/pull/29).
+- Modify the ksmanage.py file in the module_utils directory, and change the reference path of iteritems to be a reference from within Python. (https://github.com/ieisystem/kaytus.ksmanage/pull/32).
+
+New Modules
+-----------
+
+- generate_ssl - Generate SSL certificate
+- ssl_info - Get SSL certificate information
+- upload_ssl - Upload SSL certificate
+
 v2.0.0
 ======
 
