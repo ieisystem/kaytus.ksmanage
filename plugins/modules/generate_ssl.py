@@ -151,6 +151,7 @@ class SSL(object):
         self.run_command()
         self.show_result()
 
+
 def main():
     argument_spec = dict(
         common_name=dict(type='str', required=True),
