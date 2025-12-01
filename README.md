@@ -1,6 +1,6 @@
 # kaytus ksmanage Collection
 
-This repo contains the `kaytus,ksmanage` Ansible Collection. Collections are used to manage common KAYTUS servers, and Basic management of the server based on restful interface. Including server BMC configuration, firmware upgrade, BIOS configuration and other functions.
+This repo contains the `kaytus.ksmanage` Ansible Collection. Collections are used to manage common KAYTUS servers, and Basic management of the server based on restful interface. Including server BMC configuration, firmware upgrade, BIOS configuration and other functions.
 
 .
 
@@ -16,13 +16,13 @@ Ansible module is suitable for ansible version 2.10
 Main steps:
 
 Install Ansible 2.10
-Install inManage 
+Install ksmanage 
 <!--- A step-by-step reproduction of the problem is helpful if there is no related issue -->
 Thes modules require the following to be installed on the control node:
 
 * Python 3.7 or later
 * [Ansible](http://www.ansible.com) 2.10 or later
-* [ieisystem support] [inManage](https://github.com/ieisystem/inManage) 1.2.0 or later
+* [kaytus support] [ksmanage](https://github.com/KSManageOSS/ksManage) 1.0.0 or later
 
 ## Included content
 
@@ -55,7 +55,7 @@ See [here](https://docs.ansible.com/ansible/devel/dev_guide/developing_collectio
 
 ### Communication
 
-wangbaoshan@ieisystem.com
+wangbaoshanlr@163.com
 
 
 ### Publishing New Version

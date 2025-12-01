@@ -7,7 +7,7 @@ __metaclass__ = type
 
 import sys
 try:
-    import inmanage
+    import ksmanage
     ksmanage_msg = ''
     ksmanage_temp = True
 except ImportError as e:
@@ -55,6 +55,6 @@ def get_connection(module):
     # else:
     dict_param = module.params
     if not ksmanage_temp:
-        module.fail_json(msg='inManage must be installed to use this module.' + ksmanage_msg)
-    result = inmanage.main(dict_param)
+        module.fail_json(msg='ksManage must be installed to use this module.' + ksmanage_msg)
+    result = ksmanage.main(dict_param)
     return result
