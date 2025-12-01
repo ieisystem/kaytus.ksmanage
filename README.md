@@ -41,13 +41,13 @@ collections:
 - name: kaytus.ksmanage
 ```
 
-See [Ansible Using collections](https://ieisystem.github.io/kaytus.ksmanage-docs/index.html) for more details.
+See [Ansible Using collections](https://KSManageOSS.github.io/kaytus.ksmanage-docs/index.html) for more details.
 
 ## Contributing to this collection
 
 If you want to develop new content for this collection or improve what is already here, the easiest way to work on the collection is to clone it into one of the configured [`COLLECTIONS_PATH`](https://docs.ansible.com/ansible/latest/reference_appendices/config.html#collections-paths), and work on it there.
 
-You can find more information in the [developer guide for collections](https://docs.ansible.com/ansible/devel/dev_guide/developing_collections.html#contributing-to-collections), and in the [Ansible kaytus.ksmanage Guide](https://ieisystem.github.io/kaytus.ksmanage-docs/index.html).
+You can find more information in the [developer guide for collections](https://docs.ansible.com/ansible/devel/dev_guide/developing_collections.html#contributing-to-collections), and in the [Ansible kaytus.ksmanage Guide](https://KSManageOSS.github.io/kaytus.ksmanage-docs/index.html).
 
 ### Running tests
 
@@ -69,11 +69,11 @@ Basic instructions without release branches:
 
 ## Release notes
 
-See the [changelog](https://github.com/ieisystem/kaytus.ksmanage/blob/main/CHANGELOG.rst).
+See the [changelog](https://github.com/KSManageOSS/kaytus.ksmanage/blob/main/CHANGELOG.rst).
 
 ## Roadmap
 
-See [this issue](https://github.com/ieisystem/kaytus.ksmanage/issues/3) for information on releasing, versioning and deprecation.
+See [this issue](https://github.com/KSManageOSS/kaytus.ksmanage/issues/3) for information on releasing, versioning and deprecation.
 
 In general, we plan to release a major version every year, and minor versions every three months. Major versions can contain breaking changes, while minor versions only contain new features and bugfixes.
 

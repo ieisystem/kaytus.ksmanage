@@ -13,7 +13,7 @@ DOCUMENTATION = '''
 module: edit_network_bond
 version_added: "1.0.0"
 author:
-    - WangBaoshan (@ieisystem)
+    - WangBaoshan (@KSManageOSS)
 short_description: Set network bond
 description:
    - Set network bond on kaytus Server.

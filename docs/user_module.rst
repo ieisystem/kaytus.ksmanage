@@ -358,7 +358,7 @@ Examples
           upass: "admin"
           role_id: "Administrator"
           priv: "kvm, sol"
-          email: "wbs@ieisystem.com"
+          email: "wbs@KSManageOSS.com"
           provider: "{{ ksmanage }}"
 
       - name: "Set user"
@@ -446,7 +446,7 @@ Common return values are documented :ref:`here <common_return_values>`, the foll
 Authors
 ~~~~~~~
 
-- WangBaoshan (@ieisystem)
+- WangBaoshan (@KSManageOSS)
 
 
 

@@ -13,7 +13,7 @@ DOCUMENTATION = '''
 module: ssl_info
 version_added: "3.0.0"
 author:
-    - WangBaoshan (@ieisystem)
+    - WangBaoshan (@KSManageOSS)
 short_description: Get SSL certificate information
 description:
    - Get SSL certificate information on kaytus Server.

@@ -13,7 +13,7 @@ DOCUMENTATION = '''
 module: edit_snmp
 version_added: "1.0.0"
 author:
-    - WangBaoshan (@ieisystem)
+    - WangBaoshan (@KSManageOSS)
 short_description: Set snmp
 description:
    - Set snmp on kaytus Server.
