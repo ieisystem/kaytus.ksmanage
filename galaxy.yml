@@ -45,16 +45,16 @@ tags: [kaytus, ksmanage, server, manager, tools]
 dependencies: {}
 
 # The URL of the originating SCM repository
-repository: https://github.com/ieisystem/kaytus.ksmanage
+repository: https://github.com/KSManageOSS/kaytus.ksmanage
 
 # The URL to any online docs
-documentation: https://ieisystem.github.io/kaytus.ksmanage-docs/index.html
+documentation: https://KSManageOSS.github.io/kaytus.ksmanage-docs/index.html
 
 # The URL to the homepage of the collection/project
-homepage: https://github.com/ieisystem/kaytus.ksmanage
+homepage: https://github.com/KSManageOSS/kaytus.ksmanage
 
 # The URL to the collection issue tracker
-issues: https://github.com/ieisystem/kaytus.ksmanage/issues
+issues: https://github.com/KSManageOSS/kaytus.ksmanage/issues
 
 # Ignore files and directories matching the following patterns
 build_ignore:

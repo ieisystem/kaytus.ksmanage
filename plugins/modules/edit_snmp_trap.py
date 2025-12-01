@@ -13,7 +13,7 @@ DOCUMENTATION = '''
 module: edit_snmp_trap
 version_added: "1.0.0"
 author:
-    - WangBaoshan (@ieisystem)
+    - WangBaoshan (@KSManageOSS)
 short_description: Set snmp trap
 description:
    - Set snmp trap on kaytus Server.
@@ -124,14 +124,14 @@ EXAMPLES = '''
       version: 2
       event_severity: "warning"
       community: "test"
-      system_name: "ieisystem"
+      system_name: "test"
       provider: "{{ ksmanage }}"
 
   - name: "Set snmp trap v3"
     kaytus.ksmanage.edit_snmp_trap:
       version: 3
       event_severity: "all"
-      v3username: "ieisystem"
+      v3username: "test"
       engine_id: "1234567890"
       auth_protocol: "SHA"
       auth_password: "12345678"

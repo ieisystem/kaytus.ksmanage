@@ -13,7 +13,7 @@ DOCUMENTATION = '''
 module: upload_ssl
 version_added: "3.0.0"
 author:
-    - WangBaoshan (@ieisystem)
+    - WangBaoshan (@KSManageOSS)
 short_description: Upload SSL certificate
 description:
    - Upload SSL certificate on kaytus Server.

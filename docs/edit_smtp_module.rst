@@ -484,7 +484,7 @@ Examples
       - name: "Set smtp information"
         kaytus.ksmanage.edit_smtp:
           interface: "eth0"
-          email: "ieit@ieisystem.com"
+          email: "ieit@KSManageOSS.com"
           primary_status: "enable"
           primary_ip: "100.2.2.2"
           primary_name: "test"
@@ -494,7 +494,7 @@ Examples
       - name: "Set smtp information"
         kaytus.ksmanage.edit_smtp:
           interface: "eth0"
-          email: "ieit@ieisystem.com"
+          email: "ieit@KSManageOSS.com"
           primary_status: "enable"
           primary_ip: "100.2.2.2"
           primary_name: "test"
@@ -579,7 +579,7 @@ Common return values are documented :ref:`here <common_return_values>`, the foll
 Authors
 ~~~~~~~
 
-- WangBaoshan (@ieisystem)
+- WangBaoshan (@KSManageOSS)
 
 
 

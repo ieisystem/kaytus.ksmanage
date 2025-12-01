@@ -13,7 +13,7 @@ DOCUMENTATION = '''
 module: generate_ssl
 version_added: "3.0.0"
 author:
-    - WangBaoshan (@ieisystem)
+    - WangBaoshan (@KSManageOSS)
 short_description: Generate SSL certificate
 description:
    - Generate SSL certificate on kaytus Server.
