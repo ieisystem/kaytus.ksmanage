@@ -515,3 +515,15 @@ releases:
       name: upload_ssl
       namespace: ''
     release_date: '2025-11-24'
+  4.0.0:
+    changes:
+      major_changes:
+      - Change the name of the used SDK. (https://github.com/ieisystem/kaytus.ksmanage/pull/37).
+      - Modify the URL address path when the owner is changed. (https://github.com/ieisystem/kaytus.ksmanage/pull/38).
+      minor_changes:
+      - Modify the contact email in the README.md file. (https://github.com/KSManageOSS/kaytus.ksmanage/pull/39).
+    fragments:
+    - 37-edit_sdk.yml
+    - 38-editKaytusUrl.yml
+    - 39-editReadmeEmail.yml
+    release_date: '2025-12-02'
