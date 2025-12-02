@@ -2,7 +2,6 @@
 
 This repo contains the `kaytus.ksmanage` Ansible Collection. Collections are used to manage common KAYTUS servers, and Basic management of the server based on restful interface. Including server BMC configuration, firmware upgrade, BIOS configuration and other functions.
 
-.
 
 ## Tested with Ansible
 
@@ -55,7 +54,7 @@ See [here](https://docs.ansible.com/ansible/devel/dev_guide/developing_collectio
 
 ### Communication
 
-wangbaoshanlr@163.com
+ksmanageoss@kaytus.com
 
 
 ### Publishing New Version
