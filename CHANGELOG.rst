@@ -5,6 +5,20 @@ kaytus.ksmanage Release Notes
 .. contents:: Topics
 
 
+v4.0.0
+======
+
+Major Changes
+-------------
+
+- Change the name of the used SDK. (https://github.com/ieisystem/kaytus.ksmanage/pull/37).
+- Modify the URL address path when the owner is changed. (https://github.com/ieisystem/kaytus.ksmanage/pull/38).
+
+Minor Changes
+-------------
+
+- Modify the contact email in the README.md file. (https://github.com/KSManageOSS/kaytus.ksmanage/pull/39).
+
 v3.0.0
 ======
 
